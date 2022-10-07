@@ -16,8 +16,7 @@ export default function DataTable({ data }) {
     return { ...company, id: ++id };
   });
 
-  console.log("rows", rows);
-  console.log("data", columns);
+ 
   return (
     <Box
       sx={{

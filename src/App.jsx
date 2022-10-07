@@ -25,8 +25,7 @@ function App() {
       setError(error);
     }
   }
-  console.log("data", data);
-  console.log("error", error);
+ 
   if (!data) return <div>Loading Table</div>;
   return (
     <div className="App">
